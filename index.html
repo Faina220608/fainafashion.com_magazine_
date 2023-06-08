@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <h1>FAINA FASHION.com</h1>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Кнопка</title>
+    <style>
+      .btn {
+        display: inline-block;
+        /* Строчно-блочный элемент */
+        background: #ff008c;
+        /* Серый цвет фона */
+        color: #fff;
+        /* Белый цвет текста */
+        padding: 1rem 1.5rem;
+        /* Поля вокруг текста */
+        text-decoration: none;
+        /* Убираем подчёркивание */
+        border-radius: 80px;
+        /* Скругляем уголки */
+      }
+    </style>
+  </head>
+
+<body>
+  <a href="https://sites.google.com/view/fainafashion" class="btn">MY SITE</a>
+</body>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <!--шапка сайта-->
+  <div class="shapka">
+    <span class="btn-toggle">
+      <span class="material-symbols-outlined">
+        light_mode
+      </span>
+    </span>
+  </div>
+  <!--табы-->
+  <div class="tabs">
+    <span class="separator">|</span>
+    <button class="tab" data-tab-id="goods">
+      CLOTHES
+    </button>
+    <span class="separator">|</span>
+    <button class="tab" data-tab-id="goods_2">
+      <!--добавляем кнопку-->
+      SHOES & ACCESSORIES
+    </button>
+    <span class="separator">|</span>
+    <button class="tab cart-tab" data-goods-count="0" data-tab-id="cart">
+      SHOPPING BAG
+    </button>
+    <span class="separator">|</span>
+  </div>
+  <!--подвал сайта-->
+  <div class="podval">
+    <h4>BUY YOU WON'T REGRET</h4>
+  </div>
+  <!--скрипты-->
+  <script src="index.js"></script>
+  <script src="goods.js"></script>
+  <script src="goods_2.js"></script>
+</body>
+
+</html>
